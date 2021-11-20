@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.contanier{
+    padding: 0px 1000px
+}
+
+.testimonial-section{
+    background: var(--primary-color);
+    text-align: center;  
+    margin: 2em;
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(132, 143, 153);
+    
+}
+img{
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+}
+
+li{
+    padding: 2em 2em;
+    list-style: none;
+}
+blockquote{
+    color: rgb(112, 107, 107);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+.heading{
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 13px;
+}
+cite{
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    
+}
+span{
+    font-size: 10px;
+}
