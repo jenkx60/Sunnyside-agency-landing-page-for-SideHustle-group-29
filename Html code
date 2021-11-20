@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testimony section</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+    <section class="testimonial-section">
+        <div class="container">
+             <p class="heading">CLIENT TESTIMONIALS</p>
+                <ul>
+                    <li>
+                        <img src="images/image-emily.jpg" alt="emily">
+                        <blockquote>We put our trust in sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</blockquote>
+                        <cite>Emily R</cite><br>
+                        <span>marketing director</span>
+                    </li>
+                    <li>
+                        <img src="images/image-thomas.jpg" alt="Thomas">
+                        <blockquote>Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and emjoyable experience.
+                        </blockquote>
+                        <cite>Thomas S.</cite><br>
+                        <span>Chief operating officer</span>
+                    </li>
+                    <li>
+                        <img src="images/image-jennie.jpg" alt="jennie">
+                        <blockquote>incredible end result! our sales increased over 400% when we worked with Sunnyside. <br> Highly recommended!</blockquote>
+                        <cite>Jennie F.</cite><br>
+                        <span>Business Owner</span>
+                    </li>
+                </ul>
+
+            
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
