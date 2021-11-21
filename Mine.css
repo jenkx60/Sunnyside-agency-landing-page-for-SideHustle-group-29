@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+ box-sizing: border-box;
+ list-style: none;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(./images/mobile/image-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.begin{
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-family: solid;
+}
+
+label.logo{
+  color:white;
+  font-size: 20px;
+  line-height: 70px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline;
+  line-height: 60px;
+}
+a.active, a:hover{
+  color: black;
+  transition: 0.5s;
+}
+
