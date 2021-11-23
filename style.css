@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   color: ##23303E;
   font-size: 1.125em;
-  font-family: "Barlow", sans-serif;
+  font-family: "Barlow", sans-serif; 
   margin: 0;
   width: 100%;
 }
