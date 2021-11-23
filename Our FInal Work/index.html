@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+      <div class="content-container">
+          <div class="upper-header">
+              <img src="images\logo.svg" alt="sunnyside logo" />
+          </div>
+              <nav class="top-nav">
+                  <input type="checkbox" class="toggler"/>
+                  <div class="hamburger">
+                      <img src="images\icon-hamburger.svg" alt="mobile menu icon"/>
+                  </div>
+                  <div class="menu">
+
+                      <ul>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Projects</a></li>
+                          <li class="menu-item-contact"><a href="#">Contact</a></li>
+                      </ul>
+                
+                  </div>
+              </nav>
+
+
+          <div class="lower-header">
+              <h1>We are creatives</h1>
+              <div class="arrow"></div>
+          </div>
+    </div>
+  </header>
+
+  <main>
+
+      <section class="grid">
+          <div class="egg">
+          </div>
+
+          <div class="learn-more-square transform-square">
+              <div class="content-container">
+                  <h2>Transform your brand</h2>
+                  <p>We are a full-service creative agency specializing in helping brands grow fast.  Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                  <a href="#">
+                    <span>Learn More</span>
+                    <div class="highlight transform"></div>
+                  </a>
+              </div>
+          </div>
+
+          <div class="cup">
+          </div>
+
+          <div class="learn-more-square stand-out-square">
+              <div class="content-container">
+                  <h2>Stand out to the right audience</h2>
+                  <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
+                  <a href="#">
+                    <span>Learn More</span>
+                    <div class="highlight stand-out"></div>
+                  </a>
+                </div>
+          </div>
+
+          <div class="skill graphic-design">
+              <div class="content-container">
+                  <h3>Graphic Design</h3>
+                  <p>Great design makes you memorable.  We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+              </div>
+          </div>
+          <div class="skill photography">
+              <div class="content-container">
+                  <h3>Photography</h3>
+                  <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+              </div>
+          </div>
+      </section>
+
+      <section class="testimonials">
+          <div class="content-container">
+              <h4>Client Testimonials</h4>
+
+              <figure>
+                  <img src="images/image-emily.jpg" alt="Emily R" />
+                  <blockquote>We put our trust in Sunnywide and they delivered, making sure our needs were met and deadlines were always hit.</blockquote>
+                  <footer>
+                      <cite class="name">Emily R.</cite>
+                      <cite class="role">Marketing Director</cite>
+                </footer>
+              </figure>
+
+              <figure>
+                  <img src="images/image-thomas.jpg" alt="Thomas S" />
+                  <blockquote>
+                      Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
+                  </blockquote>
+                  <footer>
+                      <cite class="name">Thomas S.</cite>
+                      <cite class="role">Chief Operating Officer</cite>
+                  </footer>
+              </figure>
+
+              <figure>
+                  <img src="images/image-jennie.jpg" alt="Jennie F" />
+                  <blockquote>
+                      Incredible end result!  Our sales increased over 400% when we worked with Sunnyside.  Highly recommended!
+                  </blockquote>
+                  <footer>
+                      <cite class="name">Jennie F.</cite>
+                      <cite class="role">Business Owner</cite>
+                  </footer>
+              </figure>
+
+          </div>
+      </section>
+
+      <section class="image-showcase">
+          <img src="images/mobile/image-gallery-milkbottles.jpg" alt="" class="mobile-size"/>
+          <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" class="desktop-size"/>
+
+          <img src="images/mobile/image-gallery-orange.jpg" alt="" class="mobile-size"/>
+          <img src="images/desktop/image-gallery-orange.jpg" alt="" class="desktop-size"/>
+
+          <img src="images/mobile/image-gallery-cone.jpg" alt="" class="mobile-size"/>
+          <img src="images/desktop/image-gallery-cone.jpg" alt="" class="desktop-size"/>
+
+          <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt=""  class="mobile-size"/>
+          <img src="images/desktop/image-gallery-sugarcubes.jpg" alt=""  class="desktop-size"/>
+      </section>
+  </main>
+
+  <footer class="contact">
+      <div class="content-container">
+          <img src="images/logo.svg" alt="sunnyside logo" />
+          <nav aria-label="footer-nav">
+              <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Projects</a></li>
+              </ul>
+          </nav>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+      </div>
+
+  </footer>
+</body>
+</html>
